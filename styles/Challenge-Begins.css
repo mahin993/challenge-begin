@@ -22,7 +22,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px; /* Adjust padding for spacing */
+  padding: 20px 40px;
 }
 
 nav h1 {
@@ -54,7 +54,6 @@ nav button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0; /* Remove default margin */
 }
 
 .banner-title {
@@ -65,7 +64,6 @@ nav button:hover {
 }
 
 .description {
-  /* color: #7d7e83; */
   font-size: 16px;
   font-weight: 400;
 }
@@ -146,6 +144,10 @@ margin-bottom: 16px;
 
 
 /* Inspiration Section */
+.inspiration{
+  margin: 0 50px;
+}
+
 .inspiration-title, title{
   display: flex;
   flex-direction: column;
@@ -166,6 +168,9 @@ margin-bottom: 16px;
 }
 
 /* Current Target Section */
+.current-target{
+  margin: 0 50px;
+}
 .target-title{
   margin: 100px 0 24px;
   font-size: 40px;
@@ -231,7 +236,7 @@ margin-bottom: 16px;
   align-items: center;
   border-radius: 16px;
   padding: 64px 48px;
-  margin: 100px 0;
+  margin: 100px 50px;
   text-align: center;
 }
 
